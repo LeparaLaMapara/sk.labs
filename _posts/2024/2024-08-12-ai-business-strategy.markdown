@@ -40,7 +40,6 @@ The journey hasn’t been without its challenges. In the insurance industry, I e
 Eliyahu M. Goldratt’s perspective, "Tell me how you will measure me, and I will tell you how I will behave," resonates deeply with me. It’s a principle that now guides my approach, ensuring that every AI project I work on is measured not just by its technical merits but by the business outcomes it drives. 📊
 
 ## Process flow
-
 ```mermaid
 flowchart TD
     A[Start] --> B[Define Business Objectives and Strategy]
@@ -53,53 +52,29 @@ flowchart TD
     H --> I[Scale and Generalize]
     I --> J[End]
     
-    subgraph B[Define Business Objectives and Strategy]
-        B1[Identify Key Business Objectives]
-        B2[Determine Strategic Metrics]
-        B1 --> B2
-    end
-
-    subgraph C[Understand the Problem Domain]
-        C1[Engage with Stakeholders]
-        C2[Define the Problem Statement]
-        C1 --> C2
-    end
-
-    subgraph D[Develop the Model with Business Metrics in Mind]
-        D1[Select Relevant Data]
-        D2[Model Building and Validation]
-        D1 --> D2
-    end
-
-    subgraph E[Quantify the Model’s Impact]
-        E1[Define Success Criteria]
-        E2[Simulate Business Scenarios]
-        E1 --> E2
-    end
-
-    subgraph F[Integrate the Model into Business Processes]
-        F1[Align with Business Processes]
-        F2[Develop Dashboards and Reports]
-        F1 --> F2
-    end
-
-    subgraph G[Monitor and Optimize]
-        G1[Track Performance]
-        G2[Iterate and Improve]
-        G1 --> G2
-    end
-
-    subgraph H[Communicate Results and Impact]
-        H1[Regular Reporting]
-        H2[Feedback Loop]
-        H1 --> H2
-    end
-
-    subgraph I[Scale and Generalize]
-        I1[Scaling the Solution]
-        I2[Generalize Across Business Units]
-        I1 --> I2
-    end
+    B -->|Sub-step| B1[Identify Key Business Objectives]
+    B -->|Sub-step| B2[Determine Strategic Metrics]
+    
+    C -->|Sub-step| C1[Engage with Stakeholders]
+    C -->|Sub-step| C2[Define the Problem Statement]
+    
+    D -->|Sub-step| D1[Select Relevant Data]
+    D -->|Sub-step| D2[Model Building and Validation]
+    
+    E -->|Sub-step| E1[Define Success Criteria]
+    E -->|Sub-step| E2[Simulate Business Scenarios]
+    
+    F -->|Sub-step| F1[Align with Business Processes]
+    F -->|Sub-step| F2[Develop Dashboards and Reports]
+    
+    G -->|Sub-step| G1[Track Performance]
+    G -->|Sub-step| G2[Iterate and Improve]
+    
+    H -->|Sub-step| H1[Regular Reporting]
+    H -->|Sub-step| H2[Feedback Loop]
+    
+    I -->|Sub-step| I1[Scaling the Solution]
+    I -->|Sub-step| I2[Generalize Across Business Units]
 
 
 
