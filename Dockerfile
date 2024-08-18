@@ -1,9 +1,11 @@
-FROM mangar/jekyll:1.0
+FROM jekyll/jekyll:4.2.0
 
-MAINTAINER Marcio Mangar "marcio.mangar@gmail.com"
+
+
+LABEL maintainer="Marcio Mangar <marcio.mangar@gmail.com>"
 
 RUN gem install jekyll -v 3.1.6
-RUN gem install bundler
+RUN gem install bundler -v 2.2.33  # Install an older version of Bundler
 
 RUN gem install execjs
 RUN gem install therubyracer
@@ -11,7 +13,7 @@ RUN gem install github-pages
 RUN gem install jekyll-paginate
 RUN gem install jekyll-seo-tag
 RUN gem install jekyll-gist
-RUN gem install json -v 1.8.3
+RUN gem install json -v 2.3.0
 
 RUN gem install minitest -v 5.9.0
 RUN gem install colorator -v 0.1
@@ -32,13 +34,8 @@ RUN gem install jekyll-redirect-from -v 0.10.0
 RUN gem install jemoji -v 0.6.2
 RUN gem install github-pages -v 82
 
-
-
 RUN mkdir -p /app
 ADD ./ /app
-
 WORKDIR /app
-
 EXPOSE 4000
-
-CMD bundle exec jekyll serve
+CMD ["bundle", "exec", "jekyll", "serve"]
