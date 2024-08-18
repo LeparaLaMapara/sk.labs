@@ -197,3 +197,9 @@ where **my_module** is the name of your module as specified in your **setup.py**
 And that’s it! You’ve just created and published your very own Python package. Now go out there and make Richard Feynman (and Jaco!) proud. 😉
 
 So that’s how you create a Python package, my friend. It’s like setting off on your own little adventure, learning along the way, and maybe even finding a few treasures (or bugs) here and there. 🍀
+
+# My 1st Package 🎉
+
+So after all that hard work and plenty of *Kamehameha* energy, I finally created my first Python package! It's called [Bayesian Filtering Package](https://pypi.org/project/tfilterpy/). It’s pretty basic—kind of like Goku when he first landed on Earth, but the goal was just to go Super Saiyan on my understanding of how this whole package thing is done. 💪
+
+Hmm, should I make a detailed post about it? Maybe. But I guess you’ll just have to *tune in next time on Dragon Ball Z* to find out... Will Thabang master the art of Python packaging? Will his code stand the test of time? Or will he face a new bug that makes him power up for three episodes straight? Stay tuned! 😉
