@@ -4,5 +4,6 @@ title: About me
 subtitle:
 ---
 
-I recently started a PhD in machine/deep learning at the [Institut of Bioinformatics](http://www.bioinf.jku.at/) of the Johannes Kepler University in Linz, Austria in the team of Sepp Hochreiter.
-Previously I worked at the Institute of Water Management, Hydrology and Hydraulic Engineering at the BOKU University in Vienna, as a research assistant. I did my Master in environmental engineering ant the topic of my Master thesis was the development of a software as part of a semi-automatic monitoring system for fish migration in fish passes. The thesis can be found [here](http://permalink.obvsg.at/bok/AC13359496) (in German only). In my time as research assistant at the BOKU university I mostly worked on machine learning applications in the field of hydrology and environmental sciences.
+Data Science Leader driving AI innovation in education, research, telecom, and finance sectors. I design scalable ML solutions—cloud-optimized and MLOps-powered—that deliver clear, transformative business value. Skilled at leading top-tier teams and integrating AI into strategic frameworks. I train and mentor junior data scientists and engineers, building high-impact data science teams that deliver business results
+
+MSc (Distinction) from Wits, specializing in efficient algorithms, self-supervised learning, and image segmentation. PhD candidate investigating self-supervised learning and uncertainty quantification for flood risk assessment, leveraging satellite imagery and remote sensing. I’m a dedicated researcher with published work and impactful open-source AI tools, advancing the field.
